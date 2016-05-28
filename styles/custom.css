@@ -29,6 +29,10 @@
   margin-top: 20px;
 }
 
+.img-responsive {
+  max-width: inherit;
+}
+
 /**********************************************/
 /************ General styles ***************/
 /********************************************/
@@ -45,6 +49,27 @@
 /*a, h1, h2, h3, h4, h5, h6 {
   font-family: "Intro Black";
 }*/
+
+.item {
+  width: 100%;
+  height: 300px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.item .picture {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.item a {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -100px;
+}
 
 /**********************************************/
 /**************** Header *******************/
