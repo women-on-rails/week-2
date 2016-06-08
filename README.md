@@ -26,7 +26,7 @@ Cela vous permet de synchroniser votre compte github avec les modifications que 
 A cette étape, si vous faites ````ls```` dans votre console, le dossier ````week-2```` doit etre vide.
 
 Maintenant, vous allez lier votre répertoire ````week-2```` situé sur votre ordinateur avec le répertoire distant ````week-2```` situé sur le compte Github des Women On Rails. Le lien sera appelé ````upstream````. 
-Pour cela, fites la commande suivante:
+Pour cela, faites la commande suivante:
 ``` Console
 git remote add upstream git@github.com:women-on-rails/wow-curiosites-1.git
 ````
@@ -99,7 +99,7 @@ git commit -m "description blabla"
 ````
 Cela permet de savoir rapidement à quoi correspond le commit, au lieu de regarder sa composition. 
 
-Pour envoyer votre commit vers votre dossier remote (sur github), vous devez ensuite utiliser la commande ````push````:
+Pour envoyer votre commit vers votre repertoire distant (sur Github), vous devez ensuite utiliser la commande ````push````:
 ```Console
 git push 
 ````
