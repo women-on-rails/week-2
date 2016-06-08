@@ -1,6 +1,6 @@
 # Etape 1: Récuperer le projet week-2
 
-Ouvrez une console et entrez dans votre répertoire de travail (aidez vous des commandes ````cd```` (change directory) et ````ls````).
+Ouvrez une console et entrez dans votre répertoire de travail (aidez vous des commandes ````cd```` (changement de dossier) et ````ls```` (listing des fichiers)).
 Créez un nouveau dossier de travail (````mkdir````: make directory):
 ``` Console
 mkdir week-2
