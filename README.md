@@ -42,7 +42,7 @@ En faisant un ````ls````, vous pourrez voir la liste des fichiers copiés.
 
 Vous voila prete pour l'exercice ! 
 
-# Etape 2: Comprendre l'exercice
+# Etape 2: Lire l'exercice et se lancer
 
 ## Challenges du jour :
 
