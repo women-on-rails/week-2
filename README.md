@@ -83,6 +83,11 @@ git add -p
 ````
 Cela vous permettra de visualier chaque modification et de l'ajouter (````y````) ou non (````n````). 
 
+PS: Si vous voulez simplement visualiser les fichiers modifiés, faites:
+``` Console
+git status
+````
+
 Pour rendre l'enregistrement des modifications effectif, il faut faire la commande:
 ``` Console
 git commit 
