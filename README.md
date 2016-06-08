@@ -101,7 +101,7 @@ git push
 
 Allez voir sur github, vos modifications apparaitront :)
 
-# Lectures pour la semaine prochaine : 
+# Pour aller plus loin : 
 - Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/
 - Aller plus loin avec les répertoires distants : https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants
 - Premiers pas en CSS : http://css.mammouthland.net/premiers-pas-en-css.php
