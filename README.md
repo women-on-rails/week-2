@@ -19,7 +19,7 @@ Vous allez maintenant lier votre répertoire ````week-2```` situé sur votre ord
 Pour cela, créez un nouveau répertoire appelé ````week-2```` sur Github et copiez l'url de ce répertoire.
 Puis, faites la commande suivante, en remplaçant l'url par la votre:
 ``` Console
-git remote add origin git@github.com:(votre compte)/wow-curiosites-1.git
+git remote add origin git@github.com:(votre compte)/week-2.git
 ````
 Cela vous permet de synchroniser votre compte github avec les modifications que vous ferez sur le projet week-2 sur votre ordinateur.
 
