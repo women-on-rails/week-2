@@ -1,7 +1,7 @@
-# Etape 1: Récuperer le projet week-2
+# Étape 1 : Récuperer le projet week-2
 
-Ouvrez une console et entrez dans votre répertoire de travail (aidez vous des commandes ````cd```` (changement de dossier) et ````ls```` (listing des fichiers)).
-Créez un nouveau dossier de travail (````mkdir````: make directory):
+Ouvrez une console et entrez dans votre répertoire de travail. à l'aide des commandes ````cd```` (changement de dossier) et ````ls```` (listing des fichiers).
+Créez un nouveau dossier de travail (````mkdir```` : make directory):
 ``` Console
 mkdir week-2
 ````
@@ -17,22 +17,22 @@ git init
 ````
 Vous allez maintenant lier votre répertoire ````week-2```` situé sur votre ordinateur avec un répertoire distant week-2 situé sur votre compte github. Le lien sera appelé ````origin````.
 Pour cela, créez un nouveau répertoire appelé ````week-2```` sur Github et copiez l'url de ce répertoire.
-Puis, faites la commande suivante, en remplaçant l'url par la votre:
+Puis, faites la commande suivante, en remplaçant dans l'url (votre compte) par votre nom d'utilisateur github :
 ``` Console
 git remote add origin git@github.com:(votre compte)/week-2.git
 ````
 Cela vous permet de synchroniser votre compte github avec les modifications que vous ferez sur le projet week-2 sur votre ordinateur.
 
-A cette étape, si vous faites ````ls```` dans votre console, le dossier ````week-2```` doit etre vide.
+À cette étape, si vous faites ````ls```` dans votre console, le dossier ````week-2```` doit être vide.
 
 Maintenant, vous allez lier votre répertoire ````week-2```` situé sur votre ordinateur avec le répertoire distant ````week-2```` situé sur le compte Github des Women On Rails. Le lien sera appelé ````upstream````. 
-Pour cela, faites la commande suivante:
+Pour cela, faites la commande suivante :
 ``` Console
 git remote add upstream git@github.com:women-on-rails/wow-curiosites-1.git
 ````
 Cela va vous permettre de récupérer facilement le code existant nécessaire pour la suite de l'exercice. 
 
-Pour récupérer ce code, faites la commande suivante:
+Pour récupérer ce code, faites la commande suivante :
 ``` Console
 git pull upstream week-2
 ````
@@ -40,9 +40,9 @@ git pull upstream week-2
 Cela remplit le dossier ````week-2```` sur votre ordinateur avec tout ce que contient le projet ````week-2```` sur le compte Github des Women On Rails. 
 En faisant un ````ls````, vous pourrez voir la liste des fichiers copiés. 
 
-Vous voila prete pour l'exercice ! 
+Vous voila prête pour l'exercice ! 
 
-# Etape 2: Lire l'exercice et se lancer
+# Étape 2 : Lire l'exercice et se lancer
 
 ## Challenges du jour :
 
@@ -54,13 +54,13 @@ Changez le style pour qu'il vous ressemble. Vous l'aimez tel quel ? Amusez-vous 
 ## Challenge supplémentaire pour la semaine : 
 Changez toutes les curiosités et ajoutez un footer avec un lien vers la page de votre choix. 
 
-Utilisez des images qui sont sur internet:
+Utilisez des images qui sont sur internet :
 ``` HTML
 <img src="https://pbs.twimg.com/profile_images/616542814319415296/McCTpH_E.jpg">
 ````
 Ou ajoutez des images dans le dossier images pour les utiliser avec la balise <img>:
 ``` HTML
-<img src="images/votre_image.png">.
+<img src="/images/votre_image.png">.
 ````
 ## Avancé : 
 - Ajoutez les liens vers vos réseaux sociaux avec une icône. La page de destination doit ouvrir un nouvel onglet. Concernant le design vous pouvez vous inspirer de [celui de Webibli](http://webibli.fr/users/1128), créé par Lisa.
@@ -68,7 +68,7 @@ Ou ajoutez des images dans le dossier images pour les utiliser avec la balise <i
 - HTML : Intéressez-vous à [Schema.org et au web sémantique](https://openclassrooms.com/courses/decouper-une-maquette/ajouter-les-metatags).
 
 
-# Etape 3: Enregistrer les modifications sur le répertoire distant
+# Étape 3 : Enregistrer les modifications sur le répertoire distant
 
 Lorsque vous avez fait des modifications dans votre projet ````week-2````, vous pouvez avoir besoin de les enregistrer pour ne pas les effacer malencontreusement. Pour cela, vous allez les 'committer'. 
 
