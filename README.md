@@ -32,8 +32,6 @@ Ou ajoutez des images dans le dossier images pour les utiliser avec la balise <i
 
 [Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
-Allez voir sur github, vos modifications apparaitront :)
-
 # Pour aller plus loin : 
 - Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/
 - Aller plus loin avec les répertoires distants : https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants
