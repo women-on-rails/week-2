@@ -81,8 +81,37 @@ Pour cela, ouvrez le fichier ``` gemfile ``` et ajoutez-y la ligne suivante : ``
 > Astuce : N'oubliez pas de sauvegarder régulièrement les fichiers que vous mettez à jour.
 > Vous pouvez sauvegarder le fichier courant avec la commande ``` CTRL + S ``` (ou ``` CMD + S ``` si vous etes sous MAC).
 
-Ajouter cette gem au gemfile permet d'informer l'application qu'elle devra utiliser cette gem dorenavant. Pour installer la gem, vous devez ensuitelancer la commande ``` bundle install ``` dans votre terminal.
+Ajouter cette gem au gemfile permet d'informer l'application qu'elle devra utiliser cette gem dorenavant. Pour installer la gem, vous devez ensuite lancer la commande ``` bundle install ``` dans votre terminal.
 
 ![Bundle install](/images/readme/bundle_install.png)
 
 La gem installée, nous pouvons l'utiliser.
+
+Ouvrez le fichier ``` /app/views/layouts/application.html.erb ```.
+
+![Layout sans bootstrap](/images/readme/application_sans_bootstrap.png)
+
+Ce fichier est le "layout" de notre application. C'est à dire qu'il s'occupe de la mise en page générale utilisée par toutes les pages de l'application.
+
+> Important : Dans le fichier ``` /app/views/layouts/application.html.erb ```, le contenu des pages de l'application est inclus grace à la ligne ``` <%= yield %> ```.
+
+Dans votre terminal, tapez la commande suivante : ``` rails g bootstrap:layout application ```.
+Le navigateur vous demandera confirmation, tapez ``` Y ``` (pour ``` yes ```).
+
+![Generateur Bootstrap](/images/readme/commande_layout.png)
+
+Cette action permet d'appliquer le formattage de Bootstrap sur le fichier ``` /app/views/layouts/application.html.erb ```.
+
+![Layout avec bootstrap](/images/readme/application_avec_bootstrap.png)
+
+Si vous utilisez Cloud9, vous aurez besoin d'ajouter les lignes suivantes au fichier ``` /app/views/layouts/application.html.erb ``` pour faire fonctionner Bootstrap :
+```
+<link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+```
+
+![Layout avec bootstrap et URLs](/images/readme/application_avec_bootstrap_et_urls.png)
+
+Relancez votre serveur et rafraichissez votre application sur votre navigateur. Tadaaa ! Votre page d'accueil est un peu plus sympa et le formattage autour des données sera maintenant le meme pour toute nouvelle page de votre application.
+
+![Page web avec Bootstrap](/images/readme/page_web_avec_bootstrap.png)
