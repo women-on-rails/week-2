@@ -93,7 +93,8 @@ Ajouter cette gem au gemfile permet d'informer l'application qu'elle devra utili
 
 ![Bundle install](/images/readme/bundle_install.png)
 
-La gem installée, nous pouvons l'utiliser.
+Puis, tapez la commande ``` rails generate bootstrap:install static ``` dans votre terminal pour créer les assets (images, css et autres) utiles au bon fonctionnement de la gem.
+La gem installée, nous pouvons maintenant l'utiliser.
 
 Ouvrez le fichier ``` /app/views/layouts/application.html.erb ```.
 
@@ -112,11 +113,12 @@ Cette action permet d'appliquer le formattage de Bootstrap sur le fichier ``` /a
 
 ![Layout avec bootstrap](/images/readme/application_avec_bootstrap.png)
 
-Si vous utilisez Cloud9, vous aurez besoin d'ajouter les lignes suivantes au fichier ``` /app/views/layouts/application.html.erb ``` pour faire fonctionner Bootstrap :
-```
-<link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
-```
+> Si Bootstrap ne fonctionne pas, vérifiez que vous avez bien lancé la commande ``` rails generate bootstrap:install static ``` dans votre terminal.
+> Si c'est le cas, vous aurez besoin d'ajouter les lignes suivantes au fichier ``` /app/views/layouts/application.html.erb ``` pour faire fonctionner Bootstrap :
+> ```
+> <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+> <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+> ```
 
 ![Layout avec bootstrap et URLs](/images/readme/application_avec_bootstrap_et_urls.png)
 
