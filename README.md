@@ -56,6 +56,15 @@ A ce stade, vous devriez avoir une page qui s'affiche mais qui n'est pas très �
 
 Maintenant, on va y ajouter du contenu et la 'pimper' un peu avec Bootstrap !
 
+### Visualiser l'application sur le navigateur
+
+Apres avoir lancé votre serveur, vous pourrez ouvrir votre navigateur pour y coller l'URL fournie par votre terminal. (généralement http://localhost:3000/ si vous avez une installation native)
+Vous devriez visualiser le contenu de la vue que vous avez ouverte précédement.
+Apres avoir fait des modifications sur cette vue et les avoir enregistrées, vous n'aurez qu'à recharger la page du navigateur pour voir vos modifications apparaître.
+
+Enregistrer avec l'éditeur de texte : ``` CTRL + S ``` sous windows, ``` CMD + S ``` sous mac
+Rafraichir la page web : F5 ou ````CTRL + R```` sous windows, ````CMD + R```` sous mac
+
 ## Contenu et style
 
 Ouvrez le fichier ```index.html``` situé dans le dossier ```/app/views/home``` et rajoutez-y le HTML que vous souhaitez.
@@ -78,8 +87,7 @@ Pour cela, ouvrez le fichier ``` gemfile ``` et ajoutez-y la ligne suivante : ``
 
 ![gemfile](/images/readme/gemfile.png)
 
-> Astuce : N'oubliez pas de sauvegarder régulièrement les fichiers que vous mettez à jour.
-> Vous pouvez sauvegarder le fichier courant avec la commande ``` CTRL + S ``` (ou ``` CMD + S ``` si vous etes sous MAC).
+> Rappel : N'oubliez pas de sauvegarder régulièrement les fichiers que vous mettez à jour sinon vous ne verrez pas vos changements sur le navigateur.
 
 Ajouter cette gem au gemfile permet d'informer l'application qu'elle devra utiliser cette gem dorenavant. Pour installer la gem, vous devez ensuite lancer la commande ``` bundle install ``` dans votre terminal.
 
@@ -115,3 +123,21 @@ Si vous utilisez Cloud9, vous aurez besoin d'ajouter les lignes suivantes au fic
 Relancez votre serveur et rafraichissez votre application sur votre navigateur. Tadaaa ! Votre page d'accueil est un peu plus sympa et le formattage autour des données sera maintenant le meme pour toute nouvelle page de votre application.
 
 ![Page web avec Bootstrap](/images/readme/page_web_avec_bootstrap.png)
+
+## Pour aller plus loin
+
+Votre application a maintenant une super mise en page de base.
+N'hésitez pas à modifier le fichier ``` /app/views/layouts/application.html.erb ``` à votre gout et à utiliser de nouveaux composants [Bootstrap](http://getbootstrap.com/) en vous aidant de la documentation officielle.
+
+# Étape 4 : Enregistrer les modifications sur le répertoire distant
+
+[Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
+
+# Pour aller plus loin
+- Le protocole HTTP : https://openclassrooms.com/courses/les-requetes-http
+- Les actions CRUD : https://fr.wikipedia.org/wiki/CRUD
+- Avoir une définition succincte de Ruby On Rails : https://fr.wikipedia.org/wiki/Ruby_on_Rails
+- La documentation officielle de Ruby On Rails : http://guides.rubyonrails.org/
+- Notions intéressantes Ruby On Rails : http://geekmeup.fr/les-10-avantages-de-ruby-on-rails-pour-apprendre-a-bien-coder/
+- "Rails is like Burger King", par Simon Courtois : http://fr.slideshare.net/happynoff/rails-king
+- la doc de Bootstrap : http://getbootstrap.com/
