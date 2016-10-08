@@ -1,40 +1,32 @@
-# Étape 1 : Récupérer le projet week-2
+# Préambule
 
-[Récupérer un projet Women On Rails](https://women-on-rails.github.io/guide/get_project)
+Ce tutoriel a pour objectif d'expliquer l'architecture de base d'un projet Ruby Ob Rails et de comprendre comment utiliser des plug-ins déjà existants, dans le cadre du cycle 1 des ateliers Women On Rails.
 
-# Étape 2 : Lire l'exercice et se lancer
+# Étape 1 : Rappels
 
-## Challenges du jour :
+Vous pouvez retrouver les commandes utiles pour le terminal, git et la console Ruby On Rails [ici](https://women-on-rails.github.io/guide/main_commands).
 
-#### HTML : 
-Ajoutez votre propre curiosité ! Personnalisez la page pour qu'elle vous ressemble. 
-#### CSS : 
-Changez le style pour qu'il vous ressemble. Vous l'aimez tel quel ? Amusez-vous à tout changer pour bien comprendre ce que fait chaque ligne puis revenez à la normale. 
+# Étape 2 : Notions utiles
 
-## Challenge supplémentaire pour la semaine : 
-Changez toutes les curiosités et ajoutez un footer avec un lien vers la page de votre choix. 
+Ouvrez votre projet avec Cloud9, ou l'éditeur que vous utilisez si vous avez une installation native.
 
-Utilisez des images qui sont sur internet :
-``` HTML
-<img src="https://pbs.twimg.com/profile_images/616542814319415296/McCTpH_E.jpg">
-````
-Ou ajoutez des images dans le dossier images pour les utiliser avec la balise <img>:
-``` HTML
-<img src="/images/votre_image.png">.
-````
-## Avancé : 
-- Ajoutez les liens vers vos réseaux sociaux avec une icône. La page de destination doit ouvrir un nouvel onglet. Concernant le design vous pouvez vous inspirer de [celui de Webibli](http://webibli.fr/users/1128), créé par Lisa.
-- Découvrez la [grille de Bootstrap](http://getbootstrap.com/css/#grid) et créez une seconde section pour afficher les photos de vacances de votre personnage. 
-- HTML : Intéressez-vous à [Schema.org et au web sémantique](https://openclassrooms.com/courses/decouper-une-maquette/ajouter-les-metatags).
+Si vous utilisez SublimeText, vous pouvez faire ````subl .```` dans la console pour ouvrir directement votre projet.
+(````subl```` c'est SublimeText, l'espace c'est parce que la commande est finie, et le point c'est pour dire "ouvre dans Sublime Text tout le dossier dans lequel je suis, en un coup").
 
+### Découvrir l'univers de Ruby en voyageant sur de bonnes Rails
 
-# Étape 3 : Enregistrer les modifications sur le répertoire distant
+Regardez l'architecture du projet.
+Vous devriez voir plusieurs fichiers et dossiers, dont les principaux :
+- ````app```` : Contient principalement les contrôleur, les vues, les modèles et les assets de l'application
+- ````config```` : Contient les fichiers de configuration relatifs à l'application
+- ````db```` : Contient tout ce qui permet de construire la base de donnée
+- ````Gemfile```` : Contient la liste des plug-ins déjà existants qui vont être utilisés dans l'application
+>>>>>>> eb4512f... Update week-2 & add Rails architecture explanation
 
-[Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
+Si vous ouvrez le dossier ````app````, vous découvrirez les dossiers suivants:
+- contrôleur (````controllers````) : Ils réagissent aux actions des utilisateurs et vont chercher les données dans la base (grâce aux modèles) pour les mettre à disposition des vues.
+- modèles (````models````) : Ce sont des objets assurant la gestion des données.
+- vues (````views````) : Elles correspondent à la manière d'afficher les informations à l'utilisateur. Il s'agit généralement d'une combinaison de code HTML et de Ruby dans des fichiers .html.erb.
+- ````assets```` : Ce sont les images, les morceaux de code javascript et les feuilles de style en CSS utilisés dans les vues.
 
-# Pour aller plus loin : 
-- Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/
-- Aller plus loin avec les répertoires distants : https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants
-- Premiers pas en CSS : http://css.mammouthland.net/premiers-pas-en-css.php
-- Principales balises en HTML : https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html ou http://www.vieytes.org/tbalises.html
-- Guide complet sur le HTML : http://www.lehtml.com/html/index.htm
+Apres avoir navigué dans les différents dossiers, passons à la pratique !
