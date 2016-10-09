@@ -1,6 +1,8 @@
 # Préambule
 
-Ce tutoriel a pour objectif d'expliquer l'architecture de base d'un projet Ruby Ob Rails et de comprendre comment utiliser des plug-ins déjà existants, dans le cadre du cycle 1 des ateliers Women On Rails.
+Slides du cours disponibles [ici](http://slides.com/women_on_rails/week-2)
+
+Ce tutoriel a pour objectif d'expliquer l'architecture de base d'un projet Ruby On Rails et de comprendre comment utiliser des plug-ins déjà existants, dans le cadre du cycle 1 des ateliers Women On Rails.
 
 # Étape 1 : Rappels
 
