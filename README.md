@@ -138,6 +138,8 @@ N'hésitez pas à modifier le fichier ``` /app/views/layouts/application.html.er
 [Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
 # Pour aller plus loin
+- Les layouts : https://openclassrooms.com/courses/initiez-vous-a-ruby-on-rails/utilisez-le-layout
+- Ce qu'est un partial : http://blogs.wefrag.com/Sky/2011/06/27/ruby-on-rails-les-partials/
 - Le protocole HTTP : https://openclassrooms.com/courses/les-requetes-http
 - Les actions CRUD : https://fr.wikipedia.org/wiki/CRUD
 - Avoir une définition succincte de Ruby On Rails : https://fr.wikipedia.org/wiki/Ruby_on_Rails
