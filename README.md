@@ -129,16 +129,16 @@ Relancez votre serveur et rafraichissez votre application sur votre navigateur. 
 
 ![Page web avec Bootstrap](/images/readme/page_web_avec_bootstrap.png)
 
-## Pour aller plus loin
+# Étape 4 : Pour aller plus loin
 
 Votre application a maintenant une super mise en page de base.
 N'hésitez pas à modifier le fichier ``` /app/views/layouts/application.html.erb ``` à votre gout et à utiliser de nouveaux composants [Bootstrap](http://getbootstrap.com/) en vous aidant de la documentation officielle.
 
-# Étape 4 : Enregistrer les modifications sur le répertoire distant
+# Étape 5 : Enregistrer les modifications sur le répertoire distant
 
 [Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
-# Pour aller plus loin
+# Liens Utiles
 - Les layouts : https://openclassrooms.com/courses/initiez-vous-a-ruby-on-rails/utilisez-le-layout
 - Ce qu'est un partial : http://blogs.wefrag.com/Sky/2011/06/27/ruby-on-rails-les-partials/
 - Le protocole HTTP : https://openclassrooms.com/courses/les-requetes-http
