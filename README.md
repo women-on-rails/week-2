@@ -38,13 +38,13 @@ But: Ajouter à notre application une page d'accueil.
 
 ## Créons notre page vide
 
-Tout d'abord, tapez la commande ``` rails generate controller home index ```.
+Tout d'abord, tapez la commande ``` rails generate controller home index ``` dans votre terminal.
 
 Cela veut dire que l'on demande à Ruby On Rails de nous créer un controlleur appelé ``` home ``` qui contiendra une méthode ``` index ``` et sa vue associée (``` /home/index.html ```). Nous verrons ces notions plus en détails dans les prochains ateliers du cycle.
 
 ![Générer home](/images/readme/generator.png)
 
-Puis, allez dans le fichier ```/config/routes.rb``` et ajoutez la ligne suivante ``` root 'home#index' ``` avant la ligne ``` get 'home/index' ```.
+Puis, allez dans le fichier ```/config/routes.rb``` et ajoutez la ligne suivante ``` root 'home#index' ``` avant la ligne ``` get 'home/index' ```
 
 ![Routes](/images/readme/routes.png)
 
@@ -83,9 +83,9 @@ Apres avoir ajouté du contenu, passons au style.
 
 Nous allons inclure ce framework (bibliothèque de fonctionalités) dans notre application, à l'aide d'un [plug-in Ruby On Rails](https://github.com/seyhunak/twitter-bootstrap-rails),  pour la rendre un peu plus sympa à regarder.
 
-> Astuce : On appelle les plug-ins Ruby On Rails des gems.
+> Astuce : On appelle les plug-ins Ruby On Rails des gems. On peut en trouver toute une liste [ici](http://guides.rubygems.org/rubygems-basics/)
 
-Pour cela, ouvrez le fichier ``` gemfile ``` et ajoutez-y la ligne suivante : ``` gem "twitter-bootstrap-rails" ```.
+Pour cela, ouvrez le fichier ``` gemfile ``` et ajoutez-y la ligne suivante : ``` gem "twitter-bootstrap-rails" ```
 
 ![gemfile](/images/readme/gemfile.png)
 
@@ -106,7 +106,8 @@ Ce fichier est le "layout" de notre application. C'est à dire qu'il s'occupe de
 
 > Important : Dans le fichier ``` /app/views/layouts/application.html.erb ```, le contenu des pages de l'application est inclus grace à la ligne ``` <%= yield %> ```.
 
-Dans votre terminal, tapez la commande suivante : ``` rails g bootstrap:layout application ```.
+Dans votre terminal, tapez la commande suivante : ``` rails g bootstrap:layout application ```
+
 Le navigateur vous demandera confirmation, tapez ``` Y ``` (pour ``` yes ```).
 
 ![Generateur Bootstrap](/images/readme/commande_layout.png)
