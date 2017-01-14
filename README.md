@@ -148,3 +148,6 @@ N'hésitez pas à modifier le fichier ``` /app/views/layouts/application.html.er
 - Notions intéressantes Ruby On Rails : http://geekmeup.fr/les-10-avantages-de-ruby-on-rails-pour-apprendre-a-bien-coder/
 - "Rails is like Burger King", par Simon Courtois : http://fr.slideshare.net/happynoff/rails-king
 - la doc de Bootstrap : http://getbootstrap.com/
+
+# Et ensuite ?
+Venez vous essayer à la console Ruby et comprendre l'utilisation du langage Ruby dans le projet ```Curiosities``` avec le tutoriel [Week-3](https://github.com/women-on-rails/week-3)
