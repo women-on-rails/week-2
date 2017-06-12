@@ -118,6 +118,8 @@ Cette action permet d'appliquer le formattage de Bootstrap sur le fichier ``` /a
 
 ![Layout avec bootstrap](/images/readme/application_avec_bootstrap.png)
 
+Relancez votre serveur et rafraichissez votre application sur votre navigateur. Tadaaa ! Votre page d'accueil est un peu plus sympa et le formattage autour des données sera maintenant le meme pour toute nouvelle page de votre application.
+
 > Si Bootstrap ne fonctionne pas, vérifiez que vous avez bien lancé la commande ``` rails generate bootstrap:install static ``` dans votre terminal.
 > Si c'est le cas, vous aurez besoin d'ajouter les lignes suivantes au fichier ``` /app/views/layouts/application.html.erb ``` pour faire fonctionner Bootstrap :
 > ```
@@ -126,8 +128,6 @@ Cette action permet d'appliquer le formattage de Bootstrap sur le fichier ``` /a
 > ```
 
 ![Layout avec bootstrap et URLs](/images/readme/application_avec_bootstrap_et_urls.png)
-
-Relancez votre serveur et rafraichissez votre application sur votre navigateur. Tadaaa ! Votre page d'accueil est un peu plus sympa et le formattage autour des données sera maintenant le meme pour toute nouvelle page de votre application.
 
 ![Page web avec Bootstrap](/images/readme/page_web_avec_bootstrap.png)
 
