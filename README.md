@@ -81,7 +81,7 @@ Allez regarder sur le navigateur ce que votre page affiche.
 
 Apres avoir ajouté du contenu, passons au style.
 
-[Boostrap](http://getbootstrap.com/) est un ensemble d'outils HTML, CSS et Javascript qui, utilisés, apportent des fonctionalités et une cohérence visuelle "responsive" (adaptée à tout format) à une application.
+[Bootstrap](http://getbootstrap.com/) est un ensemble d'outils HTML, CSS et Javascript qui, utilisés, apportent des fonctionalités et une cohérence visuelle "responsive" (adaptée à tout format) à une application.
 
 Nous allons inclure ce framework (bibliothèque de fonctionalités) dans notre application, à l'aide d'un [plug-in Ruby On Rails](https://github.com/seyhunak/twitter-bootstrap-rails),  pour la rendre un peu plus sympa à regarder.
 
